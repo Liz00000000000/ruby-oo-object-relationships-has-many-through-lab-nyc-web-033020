@@ -13,7 +13,11 @@ class Doctor
 
     def appointments
       #binding.pry
+<<<<<<< HEAD
         Appointment.all.select {|appointment| appointment.doctor == self} #.map{ |app| app.appointment }
+=======
+        Appointment.all.select {|appointment| appointment.doctor == self}.map{ |app| app.appointment }
+>>>>>>> 1c0cc72cfbfe15baeedefad91b84e58c5f632dec
     end
 
 
